@@ -1,0 +1,32 @@
+#bright {
+font-size: 4rem !important;
+color: white !important;
+text-transform: capitalize !important;
+margin-bottom: 2rem !important;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@media (max-width: 816px) {
+    #bright {
+      margin-bottom: 3rem !important;
+      font-size: 2rem !important;
+}
+}
+@media (max-width: 1024px) {
+    #bright {
+      margin-bottom: 3rem !important;
+      font-size: 3rem !important;
+}
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFD100, 0 0 40px #FFD100, 0 0 50px #FFD100, 0 0 60px #FFD100, 0 0 70px #FFD100;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #FFE076, 0 0 40px #FFE076, 0 0 50px #FFE076, 0 0 60px #FFE076, 0 0 70px #FFE076, 0 0 80px #FFE076;
+  }
+}
